@@ -1,0 +1,62 @@
+# # requirements.txt
+# faiss-cpu==1.7.4
+# sentence-transformers==2.2.2
+# qdrant-client==1.7.0
+# numpy==1.24.3
+# apscheduler==3.10.4
+
+# # For datasets
+# datasets==2.14.0
+# huggingface-hub==0.16.4
+
+# # For image processing
+# Pillow==10.0.0
+# torchvision==0.15.2
+
+# # For LLM integration
+# openai==1.3.0
+# anthropic==0.5.0
+
+# # For visualization
+# matplotlib==3.7.2
+# seaborn==0.12.2
+
+# # For code processing
+# transformers==4.33.0
+
+
+
+# requirements.txt
+faiss-cpu>=1.9.0
+sentence-transformers>=2.2.0
+qdrant-client>=1.7.0
+apscheduler>=3.10.0
+
+# For datasets
+datasets>=2.14.0
+huggingface-hub>=0.16.0
+
+# For image processing
+Pillow>=10.0.0
+torch>=2.0.0
+torchvision>=0.15.0
+
+# For LLM integration (choose one based on what you'll use)
+openai>=1.0.0
+# anthropic>=0.5.0  # Uncomment if using Claude
+
+# For visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# For code processing
+transformers>=4.30.0
+python-dotenv>=1.0.0
+
+pytest>=7.4.0
+black>=23.0.0
+
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+tqdm>=4.65.0
